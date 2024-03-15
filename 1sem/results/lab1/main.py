@@ -91,8 +91,8 @@ def main():
         outputImg = Image.fromarray(outputArray)
         #outputImg.show()
 
-        outputPath = os.path.join(output_folder, f'graphs_{select}.png')
-        outputImg.save(output_path)
+        outputPath = os.path.join(outputFolder, f'graphs_{select}.png')
+        outputImg.save(outputPath)
 
 
 if __name__ == '__main__':
