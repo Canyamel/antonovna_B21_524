@@ -62,9 +62,9 @@ def one_step_resampling(inputArray: np.array, M: int, N: int) -> np.array:
 
 
 def main():
-    current_folder = os.path.dirname(os.path.abspath(__file__))
-    input_folder = os.path.join(current_folder, 'input')
-    output_folder = os.path.join(current_folder, 'output')
+    currentFolder = os.path.dirname(os.path.abspath(__file__))
+    inputFolder = os.path.join(currentFolder, 'input')
+    outputFolder = os.path.join(currentFolder, 'output')
 
     inputImg = Image.open(os.path.join(input_folder, 'graphs.png')).convert('RGB')
     #inputImg.show()
@@ -91,7 +91,7 @@ def main():
         outputImg = Image.fromarray(outputArray)
         #outputImg.show()
 
-        output_path = os.path.join(output_folder, f'graphs_{select}.png')
+        outputPath = os.path.join(output_folder, f'graphs_{select}.png')
         outputImg.save(output_path)
 
 
