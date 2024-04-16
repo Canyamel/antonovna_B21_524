@@ -4,7 +4,7 @@
 
 ### Буква ა
 
-<img src="./input/1.png" width="150"> <img src="./output/invert/1.png" width="150"> <img src="output/x/1.png" width="300"> <img src="out/y/1.png" width="300">
+<img src="./input/1.png" width="150"> <img src="./output/invert/1.png" width="150"> <img src="output/x/1.png" width="300"> <img src="output/y/1.png" width="300">
 
 Признаки:
 1. Вес чёрного = 297
@@ -24,7 +24,7 @@
 
 ### Буква ბ
 
-<img src="./input/2.png" width="150"> <img src="./output/invert/2.png" width="150"> <img src="output/x/2.png" width="300"> <img src="out/y/2.png" width="300">
+<img src="./input/2.png" width="150"> <img src="./output/invert/2.png" width="150"> <img src="output/x/2.png" width="300"> <img src="output/y/2.png" width="300">
 
 Признаки:
 1. Вес чёрного = 459
@@ -44,7 +44,7 @@
 
 ### Буква გ
 
-<img src="./input/3.png" width="150"> <img src="./output/invert/3.png" width="150"> <img src="output/x/3.png" width="300"> <img src="out/y/3.png" width="300">
+<img src="./input/3.png" width="150"> <img src="./output/invert/3.png" width="150"> <img src="output/x/3.png" width="300"> <img src="output/y/3.png" width="300">
 
 Признаки:
 1. Вес чёрного = 1026
@@ -64,7 +64,7 @@
 
 ### Буква დ
 
-<img src="./input/4.png" width="150"> <img src="./output/invert/4.png" width="150"> <img src="output/x/4.png" width="300"> <img src="out/y/4.png" width="300">
+<img src="./input/4.png" width="150"> <img src="./output/invert/4.png" width="150"> <img src="output/x/4.png" width="300"> <img src="output/y/4.png" width="300">
 
 Признаки:
 1. Вес чёрного = 663
@@ -84,7 +84,7 @@
 
 ### Буква ე
 
-<img src="./input/5.png" width="150"> <img src="./output/invert/5.png" width="150"> <img src="output/x/5.png" width="300"> <img src="out/y/5.png" width="300">
+<img src="./input/5.png" width="150"> <img src="./output/invert/5.png" width="150"> <img src="output/x/5.png" width="300"> <img src="output/y/5.png" width="300">
 
 Признаки:
 1. Вес чёрного = 653
@@ -104,7 +104,7 @@
 
 ### Буква ვ
 
-<img src="./input/6.png" width="150"> <img src="./output/invert/6.png" width="150"> <img src="output/x/6.png" width="300"> <img src="out/y/6.png" width="300">
+<img src="./input/6.png" width="150"> <img src="./output/invert/6.png" width="150"> <img src="output/x/6.png" width="300"> <img src="output/y/6.png" width="300">
 
 Признаки:
 1. Вес чёрного = 558
@@ -124,7 +124,7 @@
 
 ### Буква ზ
 
-<img src="./input/7.png" width="150"> <img src="./output/invert/7.png" width="150"> <img src="output/x/7.png" width="300"> <img src="out/y/7.png" width="300">
+<img src="./input/7.png" width="150"> <img src="./output/invert/7.png" width="150"> <img src="output/x/7.png" width="300"> <img src="output/y/7.png" width="300">
 
 Признаки:
 1. Вес чёрного = 458
@@ -144,7 +144,7 @@
 
 ### Буква თ
 
-<img src="./input/8.png" width="150"> <img src="./output/invert/8.png" width="150"> <img src="output/x/8.png" width="300"> <img src="out/y/8.png" width="300">
+<img src="./input/8.png" width="150"> <img src="./output/invert/8.png" width="150"> <img src="output/x/8.png" width="300"> <img src="output/y/8.png" width="300">
 
 Признаки:
 1. Вес чёрного = 586
@@ -164,7 +164,7 @@
 
 ### Буква ი
 
-<img src="./input/9.png" width="150"> <img src="./output/invert/9.png" width="150"> <img src="output/x/9.png" width="300"> <img src="out/y/9.png" width="300">
+<img src="./input/9.png" width="150"> <img src="./output/invert/9.png" width="150"> <img src="output/x/9.png" width="300"> <img src="output/y/9.png" width="300">
 
 Признаки:
 1. Вес чёрного = 722
@@ -184,7 +184,7 @@
 
 ### Буква კ
 
-<img src="./input/10.png" width="150"> <img src="./output/invert/10.png" width="150"> <img src="output/x/10.png" width="300"> <img src="out/y/10.png" width="300">
+<img src="./input/10.png" width="150"> <img src="./output/invert/10.png" width="150"> <img src="output/x/10.png" width="300"> <img src="output/y/10.png" width="300">
 
 Признаки:
 1. Вес чёрного = 495
@@ -204,7 +204,7 @@
 
 ### Буква ლ
 
-<img src="./input/11.png" width="150"> <img src="./output/invert/11.png" width="150"> <img src="output/x/11.png" width="300"> <img src="out/y/11.png" width="300">
+<img src="./input/11.png" width="150"> <img src="./output/invert/11.png" width="150"> <img src="output/x/11.png" width="300"> <img src="output/y/11.png" width="300">
 
 Признаки:
 1. Вес чёрного = 864
@@ -224,7 +224,7 @@
 
 ### Буква მ
 
-<img src="./input/12.png" width="150"> <img src="./output/invert/12.png" width="150"> <img src="output/x/12.png" width="300"> <img src="out/y/12.png" width="300">
+<img src="./input/12.png" width="150"> <img src="./output/invert/12.png" width="150"> <img src="output/x/12.png" width="300"> <img src="output/y/12.png" width="300">
 
 Признаки:
 1. Вес чёрного = 588
@@ -244,7 +244,7 @@
 
 ### Буква ნ
 
-<img src="./input/13.png" width="150"> <img src="./output/invert/13.png" width="150"> <img src="output/x/13.png" width="300"> <img src="out/y/13.png" width="300">
+<img src="./input/13.png" width="150"> <img src="./output/invert/13.png" width="150"> <img src="output/x/13.png" width="300"> <img src="output/y/13.png" width="300">
 
 Признаки:
 1. Вес чёрного = 723
@@ -264,7 +264,7 @@
 
 ### Буква ო
 
-<img src="./input/14.png" width="150"> <img src="./output/invert/14.png" width="150"> <img src="output/x/14.png" width="300"> <img src="out/y/14.png" width="300">
+<img src="./input/14.png" width="150"> <img src="./output/invert/14.png" width="150"> <img src="output/x/14.png" width="300"> <img src="output/y/14.png" width="300">
 
 Признаки:
 1. Вес чёрного = 958
@@ -284,7 +284,7 @@
 
 ### Буква პ
 
-<img src="./input/15.png" width="150"> <img src="./output/invert/15.png" width="150"> <img src="output/x/15.png" width="300"> <img src="out/y/15.png" width="300">
+<img src="./input/15.png" width="150"> <img src="./output/invert/15.png" width="150"> <img src="output/x/15.png" width="300"> <img src="output/y/15.png" width="300">
 
 Признаки:
 1. Вес чёрного = 632
@@ -304,7 +304,7 @@
 
 ### Буква ჟ
 
-<img src="./input/16.png" width="150"> <img src="./output/invert/16.png" width="150"> <img src="output/x/16.png" width="300"> <img src="out/y/16.png" width="300">
+<img src="./input/16.png" width="150"> <img src="./output/invert/16.png" width="150"> <img src="output/x/16.png" width="300"> <img src="output/y/16.png" width="300">
 
 Признаки:
 1. Вес чёрного = 786
@@ -324,7 +324,7 @@
 
 ### Буква რ
 
-<img src="./input/17.png" width="150"> <img src="./output/invert/17.png" width="150"> <img src="output/x/17.png" width="300"> <img src="out/y/17.png" width="300">
+<img src="./input/17.png" width="150"> <img src="./output/invert/17.png" width="150"> <img src="output/x/17.png" width="300"> <img src="output/y/17.png" width="300">
 
 Признаки:
 1. Вес чёрного = 556
@@ -344,7 +344,7 @@
 
 ### Буква ს
 
-<img src="./input/18.png" width="150"> <img src="./output/invert/18.png" width="150"> <img src="output/x/18.png" width="300"> <img src="out/y/18.png" width="300">
+<img src="./input/18.png" width="150"> <img src="./output/invert/18.png" width="150"> <img src="output/x/18.png" width="300"> <img src="output/y/18.png" width="300">
 
 Признаки:
 1. Вес чёрного = 777
@@ -364,7 +364,7 @@
 
 ### Буква ტ
 
-<img src="./input/19.png" width="150"> <img src="./output/invert/19.png" width="150"> <img src="output/x/19.png" width="300"> <img src="out/y/19.png" width="300">
+<img src="./input/19.png" width="150"> <img src="./output/invert/19.png" width="150"> <img src="output/x/19.png" width="300"> <img src="output/y/19.png" width="300">
 
 Признаки:
 1. Вес чёрного = 604
@@ -384,7 +384,7 @@
 
 ### Буква უ
 
-<img src="./input/20.png" width="150"> <img src="./output/invert/20.png" width="150"> <img src="output/x/20.png" width="300"> <img src="out/y/20.png" width="300">
+<img src="./input/20.png" width="150"> <img src="./output/invert/20.png" width="150"> <img src="output/x/20.png" width="300"> <img src="output/y/20.png" width="300">
 
 Признаки:
 1. Вес чёрного = 646
@@ -404,7 +404,7 @@
 
 ### Буква ფ
 
-<img src="./input/21.png" width="150"> <img src="./output/invert/21.png" width="150"> <img src="output/x/21.png" width="300"> <img src="out/y/21.png" width="300">
+<img src="./input/21.png" width="150"> <img src="./output/invert/21.png" width="150"> <img src="output/x/21.png" width="300"> <img src="output/y/21.png" width="300">
 
 Признаки:
 1. Вес чёрного = 560
@@ -424,7 +424,7 @@
 
 ### Буква ქ
 
-<img src="./input/22.png" width="150"> <img src="./output/invert/22.png" width="150"> <img src="output/x/22.png" width="300"> <img src="out/y/22.png" width="300">
+<img src="./input/22.png" width="150"> <img src="./output/invert/22.png" width="150"> <img src="output/x/22.png" width="300"> <img src="output/y/22.png" width="300">
 
 Признаки:
 1. Вес чёрного = 867
@@ -444,7 +444,7 @@
 
 ### Буква ღ
 
-<img src="./input/23.png" width="150"> <img src="./output/invert/23.png" width="150"> <img src="output/x/23.png" width="300"> <img src="out/y/23.png" width="300">
+<img src="./input/23.png" width="150"> <img src="./output/invert/23.png" width="150"> <img src="output/x/23.png" width="300"> <img src="output/y/23.png" width="300">
 
 Признаки:
 1. Вес чёрного = 647
@@ -464,7 +464,7 @@
 
 ### Буква ყ
 
-<img src="./input/24.png" width="150"> <img src="./output/invert/24.png" width="150"> <img src="output/x/24.png" width="300"> <img src="out/y/24.png" width="300">
+<img src="./input/24.png" width="150"> <img src="./output/invert/24.png" width="150"> <img src="output/x/24.png" width="300"> <img src="output/y/24.png" width="300">
 
 Признаки:
 1. Вес чёрного = 789
@@ -484,7 +484,7 @@
 
 ### Буква შ
 
-<img src="./input/25.png" width="150"> <img src="./output/invert/25.png" width="150"> <img src="output/x/25.png" width="300"> <img src="out/y/25.png" width="300">
+<img src="./input/25.png" width="150"> <img src="./output/invert/25.png" width="150"> <img src="output/x/25.png" width="300"> <img src="output/y/25.png" width="300">
 
 Признаки:
 1. Вес чёрного = 638
@@ -504,7 +504,7 @@
 
 ### Буква ჩ
 
-<img src="./input/26.png" width="150"> <img src="./output/invert/26.png" width="150"> <img src="output/x/26.png" width="300"> <img src="out/y/26.png" width="300">
+<img src="./input/26.png" width="150"> <img src="./output/invert/26.png" width="150"> <img src="output/x/26.png" width="300"> <img src="output/y/26.png" width="300">
 
 Признаки:
 1. Вес чёрного = 885
@@ -524,7 +524,7 @@
 
 ### Буква ც
 
-<img src="./input/27.png" width="150"> <img src="./output/invert/27.png" width="150"> <img src="output/x/27.png" width="300"> <img src="out/y/27.png" width="300">
+<img src="./input/27.png" width="150"> <img src="./output/invert/27.png" width="150"> <img src="output/x/27.png" width="300"> <img src="output/y/27.png" width="300">
 
 Признаки:
 1. Вес чёрного = 513
@@ -544,7 +544,7 @@
 
 ### Буква ძ
 
-<img src="./input/28.png" width="150"> <img src="./output/invert/28.png" width="150"> <img src="output/x/28.png" width="300"> <img src="out/y/28.png" width="300">
+<img src="./input/28.png" width="150"> <img src="./output/invert/28.png" width="150"> <img src="output/x/28.png" width="300"> <img src="output/y/28.png" width="300">
 
 Признаки:
 1. Вес чёрного = 962
@@ -564,7 +564,7 @@
 
 ### Буква წ
 
-<img src="./input/29.png" width="150"> <img src="./output/invert/29.png" width="150"> <img src="output/x/29.png" width="300"> <img src="out/y/29.png" width="300">
+<img src="./input/29.png" width="150"> <img src="./output/invert/29.png" width="150"> <img src="output/x/29.png" width="300"> <img src="output/y/29.png" width="300">
 
 Признаки:
 1. Вес чёрного = 485
@@ -584,7 +584,7 @@
 
 ### Буква ჭ
 
-<img src="./input/30.png" width="150"> <img src="./output/invert/30.png" width="150"> <img src="output/x/30.png" width="300"> <img src="out/y/30.png" width="300">
+<img src="./input/30.png" width="150"> <img src="./output/invert/30.png" width="150"> <img src="output/x/30.png" width="300"> <img src="output/y/30.png" width="300">
 
 Признаки:
 1. Вес чёрного = 539
@@ -604,7 +604,7 @@
 
 ### Буква ხ
 
-<img src="./input/31.png" width="150"> <img src="./output/invert/31.png" width="150"> <img src="output/x/31.png" width="300"> <img src="out/y/31.png" width="300">
+<img src="./input/31.png" width="150"> <img src="./output/invert/31.png" width="150"> <img src="output/x/31.png" width="300"> <img src="output/y/31.png" width="300">
 
 Признаки:
 1. Вес чёрного = 743
@@ -624,7 +624,7 @@
 
 ### Буква ჯ
 
-<img src="./input/32.png" width="150"> <img src="./output/invert/32.png" width="150"> <img src="output/x/32.png" width="300"> <img src="out/y/32.png" width="300">
+<img src="./input/32.png" width="150"> <img src="./output/invert/32.png" width="150"> <img src="output/x/32.png" width="300"> <img src="output/y/32.png" width="300">
 
 Признаки:
 1. Вес чёрного = 729
@@ -644,7 +644,7 @@
 
 ### Буква ჰ
 
-<img src="./input/33.png" width="150"> <img src="./output/invert/33.png" width="150"> <img src="output/x/33.png" width="300"> <img src="out/y/33.png" width="300">
+<img src="./input/33.png" width="150"> <img src="./output/invert/33.png" width="150"> <img src="output/x/33.png" width="300"> <img src="output/y/33.png" width="300">
 
 Признаки:
 1. Вес чёрного = 415
