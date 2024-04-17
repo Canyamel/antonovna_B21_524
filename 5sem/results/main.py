@@ -3,7 +3,7 @@ import csv
 from alphabet import GEORGIAN, FONT_NAME, FONT_SIZE, LANGUAGE
 
 def main():
-    generate_table()
+    generate_table(GEORGIAN)
 
     with open('./lab5/output/table.csv', 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
@@ -20,7 +20,7 @@ def main():
                     f"""
 ### Буква {letter}
 
-<img src="./input/{i+1}.png" width="150"> <img src="./output/invert/{i+1}.png" width="150"> <img src="output/x/{i+1}.png" width="300"> <img src="out/y/{i+1}.png" width="300">
+<img src="./input/{i+1}.png" width="150"> <img src="./output/invert/{i+1}.png" width="150"> <img src="output/x/{i+1}.png" width="300"> <img src="output/y/{i+1}.png" width="300">
 """
                 )
 

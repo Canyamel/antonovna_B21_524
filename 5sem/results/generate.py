@@ -4,9 +4,8 @@ import os
 import csv
 from PIL.ImageOps import invert
 from help import grey, binarization, get_weight, get_center, get_inertia, write_profile_x, write_profile_y
-from alphabet import GEORGIAN
 
-def generate_table():
+def generate_table(alphabet):
     with open('lab5/output/table.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         data = [
@@ -16,15 +15,14 @@ def generate_table():
         ]
         writer.writerows([data])
 
-        currentDir = os.path.dirname(os.path.abspath(__file__))
-        inputFolder = os.path.join(currentDir, "input")
-        outputFolder = os.path.join(currentDir, "output/invert")
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        input_folder = os.path.join(current_dir, "input")
+        output_folder = os.path.join(current_dir, "output/invert")
 
-        strArray = os.listdir(inputFolder)
-
-        i = 0
-        for fileName in strArray:
-            input_str = os.path.join(inputFolder, fileName)
+        strArray = os.listdir(input_folder)
+        for i in range(1, len(alphabet)+1):
+            file_name = str(i) + '.png'
+            input_str = os.path.join(input_folder, file_name)
             input_img = Image.open(input_str).convert('RGB')
             input_array = np.array(input_img)
 
@@ -58,16 +56,15 @@ def generate_table():
             relative_inertia_y = inertia_y / (W**2 * H**2)
 
             data = [
-                GEORGIAN[i], weight, round(relative_weight, 5), round(weight_1, 5), round(relative_weight_1, 5), round(weight_2, 5), round(relative_weight_2, 5),
+                alphabet[i-1], weight, round(relative_weight, 5), round(weight_1, 5), round(relative_weight_1, 5), round(weight_2, 5), round(relative_weight_2, 5),
                 round(weight_5, 5), round(relative_weight_5, 5), round(weight_4, 5), round(relative_weight_4, 5), round(center_x, 5), round(center_y, 5),
                 round(relative_center_x, 5), round(relative_center_y, 5),
                 round(inertia_x, 5), round(inertia_y, 5), round(relative_inertia_x, 5), round(relative_inertia_y, 5)
             ]
             writer.writerow(data)
-            i += 1
             write_profile_x(input_bin, i)
             write_profile_y(input_bin, i)
 
-            outputStr = os.path.join(outputFolder, fileName)
+            outputStr = os.path.join(output_folder, file_name)
             invert_img = invert(input_img)
             invert_img.save(outputStr)
