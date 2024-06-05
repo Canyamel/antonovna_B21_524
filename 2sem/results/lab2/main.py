@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 import os
 
-def grey(input: np.array) -> np.array:
+def gray(input: np.array) -> np.array:
     H, W = input.shape[:2]
     output = np.zeros((H, W), dtype=input.dtype)
 
@@ -71,7 +71,7 @@ def main():
     input_image = Image.open(os.path.join(inputFolder, 'im2.png')).convert('RGB')
     input_array = np.array(input_image)
 
-    greyArray = grey(input_array)
+    greyArray = gray(input_array)
     newArray = binarization(greyArray, 8, 0.15)
 
     newImg = Image.fromarray(newArray)
