@@ -10,3 +10,5 @@ FONT_SIZE = 52
 FONT_NAME = "Segoe UI"
 
 LANGUAGE = "Грузинский"
+
+NUMBER_LETTERS = 33

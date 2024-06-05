@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def grey(input: np.array) -> np.array:
+def gray(input: np.array) -> np.array:
     H, W = input.shape[:2]
     output = np.zeros((H, W), dtype=input.dtype)
 
@@ -79,7 +79,7 @@ def write_profile_x(input: np.array, number: int):
             'y': np.sum(input, axis=0),
             'x': np.arange(1, W + 1)
     }
-    plt.bar(x=profile['x'], height=profile['y'])
+    plt.bar(x=profile['x'], height=profile['y'], width=0.7)
 
     plt.xlim(0, W+1)
     plt.ylim(0, H+1)
@@ -94,7 +94,7 @@ def write_profile_y(input: np.array, number: int):
             'y': np.arange(1, H+1),
             'x': np.sum(input, axis=1)
     }
-    plt.barh(y=profile['y'], width=profile['x'])
+    plt.barh(y=profile['y'], width=profile['x'], height=0.7)
 
     plt.xlim(0, W+1)
     plt.ylim(H+1, 0)

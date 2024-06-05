@@ -3,7 +3,7 @@ from PIL import Image
 import os
 import csv
 from PIL.ImageOps import invert
-from help import grey, binarization, get_weight, get_center, get_inertia, write_profile_x, write_profile_y
+from help import gray, binarization, get_weight, get_center, get_inertia, write_profile_x, write_profile_y
 
 def generate_table(alphabet):
     with open('lab5/output/table.csv', 'w', newline='', encoding='utf-8') as file:
@@ -27,7 +27,7 @@ def generate_table(alphabet):
             input_array = np.array(input_img)
 
             H, W = input_array.shape[:2]
-            input_grey = grey(input_array)
+            input_grey = gray(input_array)
             input_bin = binarization(input_grey, 5, 0.15)
             input_bin[input_bin == 0] = 1
             input_bin[input_bin == 255] = 0
@@ -36,16 +36,16 @@ def generate_table(alphabet):
             relative_weight = weight / (W * H)
 
             weight_1 = get_weight(input_bin, 0, W // 2, 0, H // 2)
-            relative_weight_1 = weight / ((W // 2) * (H // 2))
+            relative_weight_1 = weight_1 / ((W // 2) * (H // 2))
 
             weight_2 = get_weight(input_bin, W // 2, W, 0, H // 2)
-            relative_weight_2 = weight / ((W - W // 2) * (H // 2))
+            relative_weight_2 = weight_2 / ((W - W // 2) * (H // 2))
 
-            weight_5 = get_weight(input_bin, 0, W // 2, H // 2, H)
-            relative_weight_5 = weight / ((W // 2) * (H - H // 2))
+            weight_3 = get_weight(input_bin, 0, W // 2, H // 2, H)
+            relative_weight_3 = weight_3 / ((W // 2) * (H - H // 2))
 
             weight_4 = get_weight(input_bin, W // 2, W, H // 2, H)
-            relative_weight_4 = weight / ((W - W // 2) * (H - H // 2))
+            relative_weight_4 = weight_4 / ((W - W // 2) * (H - H // 2))
 
             center_x, center_y = get_center(input_bin, weight)
             relative_center_x = (center_x - 1) / (W - 1)
@@ -56,10 +56,10 @@ def generate_table(alphabet):
             relative_inertia_y = inertia_y / (W**2 * H**2)
 
             data = [
-                alphabet[i-1], weight, round(relative_weight, 5), round(weight_1, 5), round(relative_weight_1, 5), round(weight_2, 5), round(relative_weight_2, 5),
-                round(weight_5, 5), round(relative_weight_5, 5), round(weight_4, 5), round(relative_weight_4, 5), round(center_x, 5), round(center_y, 5),
-                round(relative_center_x, 5), round(relative_center_y, 5),
-                round(inertia_x, 5), round(inertia_y, 5), round(relative_inertia_x, 5), round(relative_inertia_y, 5)
+                alphabet[i-1], weight, relative_weight, weight_1, relative_weight_1, weight_2, relative_weight_2,
+                weight_3, relative_weight_3, weight_4, relative_weight_4, center_x, center_y,
+                relative_center_x, relative_center_y,
+                inertia_x, inertia_y, relative_inertia_x, relative_inertia_y
             ]
             writer.writerow(data)
             write_profile_x(input_bin, i)
