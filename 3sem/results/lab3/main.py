@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 import os
 
-def grey(input: np.array) -> np.array:
+def gray(input: np.array) -> np.array:
     H, W = input.shape[:2]
     output = np.zeros((H, W), dtype=input.dtype)
 
@@ -107,7 +107,7 @@ def main():
         inputImg = Image.open(inputStr).convert('RGB')
         inputArray = np.array(inputImg)
 
-        greyArray = grey(inputArray)
+        greyArray = gray(inputArray)
         outputArray = filter_gaussian(greyArray, 3)
 
         outputImg = Image.fromarray(outputArray)
